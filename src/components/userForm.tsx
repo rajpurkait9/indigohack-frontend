@@ -15,6 +15,9 @@ export default function UserForm() {
     email: " raj112@gmail.com",
     phone: "9654674687",
     age: "23",
+    planNo: "112234",
+    startPoint: "Delhi",
+    endPoint: "kolkata",
   });
   const handleClickOpen = async () => {
     setOpen(true);

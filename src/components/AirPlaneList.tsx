@@ -87,7 +87,7 @@ export default function AirPlaneList() {
               <TableCell align="right">{row.endPoint}</TableCell>
               <TableCell align="right">{row.date}</TableCell>
               <TableCell align="right">
-                <UserForm />
+                <UserForm data={row}/>
               </TableCell>
             </TableRow>
           ))}
