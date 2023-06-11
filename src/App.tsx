@@ -1,6 +1,6 @@
-import "./App.css";
 import TicketBook from "./components/TicketBook";
 import { Box, Paper, Typography } from "@mui/material";
+import "./App.css";
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
         sx={{
           padding: 5,
           borderRadius: 5,
-          
         }}
       >
         <Typography
